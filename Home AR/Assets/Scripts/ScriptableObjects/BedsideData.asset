@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55c6b92294ad17499c20a29f31c27a5, type: 3}
+  m_Name: BedsideData
+  m_EditorClassIdentifier: 
+  furnitureName: Bedside
+  furnitureIcon: {fileID: 2800000, guid: b772064df6aec3e43a4c41009b37a5d9, type: 3}
+  furniturePrefab: {fileID: 5986253641049533001, guid: 32e8648873e3d3444875b979b8568625,
+    type: 3}
