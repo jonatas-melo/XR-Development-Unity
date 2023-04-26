@@ -375,6 +375,46 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &3920316140211686824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
+  m_Name: MetaQuestTouchProControllerProfile Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Pro Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestpro
+  openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &4302088037641043828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
+  m_Name: MetaQuestTouchProControllerProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Pro Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestpro
+  openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &4564644424583206865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,6 +452,7 @@ MonoBehaviour:
   - {fileID: -7978832945627413339}
   - {fileID: 783354131351543628}
   - {fileID: -3729093672325216432}
+  - {fileID: 4302088037641043828}
   - {fileID: 423004530657919820}
   - {fileID: -275992797860665239}
   - {fileID: -6523193204330592057}
@@ -437,6 +478,7 @@ MonoBehaviour:
   - {fileID: -1580085727045288022}
   - {fileID: 4564644424583206865}
   - {fileID: 7999305590178371920}
+  - {fileID: 3920316140211686824}
   - {fileID: -7789816809602348869}
   - {fileID: 8475047727929247333}
   - {fileID: -8820040306738535394}
