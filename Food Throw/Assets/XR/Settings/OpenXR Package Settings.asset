@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9073947318175959884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
+  m_Name: MetaQuestTouchProControllerProfile Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: 
+  version: 
+  featureIdInternal: 
+  openxrExtensionStrings: 
+  company: 
+  priority: 0
+  required: 0
 --- !u!114 &-8820040306738535394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +355,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &2975254973691377718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
+  m_Name: MetaQuestTouchProControllerProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Pro Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestpro
+  openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &3715834732289589165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,6 +452,7 @@ MonoBehaviour:
   - {fileID: -7978832945627413339}
   - {fileID: 783354131351543628}
   - {fileID: -3729093672325216432}
+  - {fileID: 2975254973691377718}
   - {fileID: 423004530657919820}
   - {fileID: -275992797860665239}
   - {fileID: -6523193204330592057}
